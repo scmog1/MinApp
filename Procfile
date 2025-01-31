@@ -1,0 +1,1 @@
+web: node Apputvikling/backend/server.js
