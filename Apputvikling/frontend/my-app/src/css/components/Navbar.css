@@ -1,0 +1,71 @@
+/* Logo */
+.toolbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 60px;
+}
+
+.toolbar-title a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #94d1a8;
+  color: white;
+  padding: 20px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.toolbar-buttons button {
+  background-color: #2c2c2c;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 200px;
+  color: white;
+}
+
+.toolbar-buttons button:hover {
+  background-color: #454545;
+}
+
+.toolbar-buttons a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.toolbar-buttons a:hover {
+  background-color: #454545;
+}
+
+.search-bar {
+  margin-left: 70px;
+  margin-right: 60px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #94d1a8;
+  outline: none;
+}

@@ -1,0 +1,92 @@
+.home-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #c3ecd2;
+  display: flex;
+  flex-direction: row; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space out elements */
+  align-items: flex-start;
+}
+
+.home-page .left-column {
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+  align-items: flex-start; /* Align items to the start */
+  margin-left: 70px;
+}
+
+.home-page .image-container {
+  margin-bottom: 20px;
+}
+
+.home-page .bilde {
+  border-radius: 20px;
+  width: 65%;
+}
+
+.home-page .weather-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create a 2x2 grid */
+  gap: 11px; /* Add some space between the grid items */
+}
+
+.home-page .weather-box {
+  background-color: #94d1a8;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-page .weather-day {
+  margin-bottom: 5px;
+}
+
+.home-page .weather-day h2 {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  color: #00322c;
+}
+
+.home-page .weather-day p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #003d33;
+}
+
+.home-page .weather-day .temperature {
+  font-size: 1.3rem;
+}
+
+.home-page .weather-day .temperature.positive {
+  color: #d32f2f;
+}
+
+.home-page .weather-day .temperature.negative {
+  color: #1976d2;
+}
+
+.home-page .weather-day .wind-speed {
+  font-size: 1.2rem;
+}
+
+.home-page .text-container {
+  text-align: left;
+  width: 60%; /* Ensure it takes the full width */
+  align-self: flex-start; /* Align text container to the start */
+  border: 2px solid #00322c; /* Add a border */
+  padding: 10px; /* Add some padding inside the border */
+  margin-right: 70px;
+}
+
+.home-page .text-container h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #00322c;
+}
+
+.home-page .text-container p {
+  font-size: 1rem;
+  color: #003d33;
+}
