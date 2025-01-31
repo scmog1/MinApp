@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000M\u0000i\u0000n\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000#\u0000 \u0000M\u0000i\u0000n\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000#\u0000 \u0000M\u0000i\u0000n\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node your_app_entry_point.js"
   },
   "repository": {
     "type": "git",
@@ -18,3 +19,4 @@
   },
   "homepage": "https://github.com/scmog1/MinApp#readme"
 }
+

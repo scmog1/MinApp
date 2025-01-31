@@ -1,1 +1,1 @@
-web: node Apputvikling/backend/server.js
+web: npm start --prefix Apputvikling/backend
